@@ -131,10 +131,9 @@ const AboutMe = () => {
                 </p>
                 <div className={'about-me__buttons'}>
                   <a
-                    /* onClick={handleDownloadCv}*/
                     href='/CV-WILIAM-RAMIREZ.pdf'
                     download={true}
-                    className={'btn btn--radius btn--white u-margin-top-2'}
+                    className={'btn btn--disabled btn--radius btn--white u-margin-top-2'}
                   >
                     Descargar CV
                   </a>
