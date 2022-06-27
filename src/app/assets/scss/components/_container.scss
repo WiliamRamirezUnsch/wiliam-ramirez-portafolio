@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*max-width: 1200px;*/
+
+  @include respond(phone) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &--lg {
+    max-width: $breakpoint-lg;
+  }
+  &--xl {
+    max-width: $breakpoint-xl;
+  }
+}
