@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wiliam-ramirez-portafolio/static/css/main.c65bc5c4.css",
-    "main.js": "/wiliam-ramirez-portafolio/static/js/main.fd967037.js",
+    "main.css": "/wiliam-ramirez-portafolio/static/css/main.a4d49e23.css",
+    "main.js": "/wiliam-ramirez-portafolio/static/js/main.c87c1217.js",
     "static/js/787.084ade21.chunk.js": "/wiliam-ramirez-portafolio/static/js/787.084ade21.chunk.js",
     "static/media/rimac-sos-dashboard.png": "/wiliam-ramirez-portafolio/static/media/rimac-sos-dashboard.dbb1e6eace44cb4bef63.png",
     "static/media/rimac-sos-login.png": "/wiliam-ramirez-portafolio/static/media/rimac-sos-login.a85374200bcc1d7531b4.png",
@@ -38,12 +38,12 @@
     "index.html": "/wiliam-ramirez-portafolio/index.html",
     "static/media/twitter.svg": "/wiliam-ramirez-portafolio/static/media/twitter.ca6dab938465408e461395a6db99ef70.svg",
     "static/media/linkedin.svg": "/wiliam-ramirez-portafolio/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.c65bc5c4.css.map": "/wiliam-ramirez-portafolio/static/css/main.c65bc5c4.css.map",
-    "main.fd967037.js.map": "/wiliam-ramirez-portafolio/static/js/main.fd967037.js.map",
+    "main.a4d49e23.css.map": "/wiliam-ramirez-portafolio/static/css/main.a4d49e23.css.map",
+    "main.c87c1217.js.map": "/wiliam-ramirez-portafolio/static/js/main.c87c1217.js.map",
     "787.084ade21.chunk.js.map": "/wiliam-ramirez-portafolio/static/js/787.084ade21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c65bc5c4.css",
-    "static/js/main.fd967037.js"
+    "static/css/main.a4d49e23.css",
+    "static/js/main.c87c1217.js"
   ]
 }
