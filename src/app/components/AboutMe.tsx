@@ -58,9 +58,9 @@ const SvgComponentSecondaryTop = () => {
 };
 
 const AboutMe = () => {
-  const handleDownloadCv = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  /*const handleDownloadCv = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     event.preventDefault();
-    const fileURL = window.location.origin + '/CV_RAMIREZ_GUTIERREZ_WILIAM_EDUAR.pdf';
+    const fileURL = window.location.origin + '/CV-WILIAM-RAMIREZ.pdf';
     fetch(fileURL, {
       method: 'GET',
       headers: {
@@ -72,7 +72,7 @@ const AboutMe = () => {
         const url = window.URL.createObjectURL(new Blob([blob]));
         const link = document.createElement('a');
         link.href = url;
-        link.setAttribute('download', `CV_RAMIREZ_GUTIERREZ_WILIAM_EDUAR.pdf`);
+        link.setAttribute('download', `CV-WILIAM-RAMIREZ.pdf`);
 
         document.body.appendChild(link);
 
@@ -80,6 +80,10 @@ const AboutMe = () => {
 
         link.parentNode!.removeChild(link);
       });
+  };*/
+
+  const redirectCvOnline = () => {
+    window.open('https://drive.google.com/file/d/1P5IUPQc4zhw3jlrgreDeL58QB8Iak77f/view', '_blank');
   };
 
   return (
@@ -125,18 +129,21 @@ const AboutMe = () => {
                   Participe en la implementación de Firecity (Sistema contra incendios en tiempo
                   real) y de la plataforma web RimacSOS (Monitoreo de ambulancias en tiempo real).
                 </p>
-                <div
-                  style={{
-                    textAlign: 'center'
-                  }}
-                >
+                <div className={'about-me__buttons'}>
                   <a
-                    href='!#'
-                    onClick={handleDownloadCv}
+                    /* onClick={handleDownloadCv}*/
+                    href='/CV-WILIAM-RAMIREZ.pdf'
+                    download={true}
                     className={'btn btn--radius btn--white u-margin-top-2'}
                   >
                     Descargar CV
                   </a>
+                  <div
+                    onClick={redirectCvOnline}
+                    className={'btn btn--radius btn--white u-margin-top-2'}
+                  >
+                    Ver CV en línea
+                  </div>
                 </div>
               </div>
             </div>
