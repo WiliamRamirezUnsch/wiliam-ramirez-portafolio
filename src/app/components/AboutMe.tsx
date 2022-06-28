@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageAboutMe from '../assets/images/about-me.png';
+import { COLORS } from '../common/constants/colors';
 
 const SvgComponentSecondaryBottom = () => {
   return (
@@ -13,8 +14,8 @@ const SvgComponentSecondaryBottom = () => {
     >
       <defs>
         <linearGradient id='gradient-about-me-bottom' x1='50%' y1='0%' x2='50%' y2='100%'>
-          <stop offset='5%' stopColor='#e76f51'></stop>
-          <stop offset='95%' stopColor='#f4a261'></stop>
+          <stop offset='5%' stopColor={COLORS.primary}></stop>
+          <stop offset='95%' stopColor={COLORS.secondary}></stop>
         </linearGradient>
       </defs>
       <path
@@ -41,8 +42,8 @@ const SvgComponentSecondaryTop = () => {
     >
       <defs>
         <linearGradient id='gradient-about-me-top' x1='50%' y1='0%' x2='50%' y2='100%'>
-          <stop offset='5%' stopColor='#e76f51'></stop>
-          <stop offset='95%' stopColor='#f4a261'></stop>
+          <stop offset='5%' stopColor={COLORS.primary}></stop>
+          <stop offset='95%' stopColor={COLORS.secondary}></stop>
         </linearGradient>
       </defs>
       <path
@@ -58,30 +59,6 @@ const SvgComponentSecondaryTop = () => {
 };
 
 const AboutMe = () => {
-  /*const handleDownloadCv = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    event.preventDefault();
-    const fileURL = window.location.origin + '/CV-WILIAM-RAMIREZ.pdf';
-    fetch(fileURL, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/pdf'
-      }
-    })
-      .then(response => response.blob())
-      .then(blob => {
-        const url = window.URL.createObjectURL(new Blob([blob]));
-        const link = document.createElement('a');
-        link.href = url;
-        link.setAttribute('download', `CV-WILIAM-RAMIREZ.pdf`);
-
-        document.body.appendChild(link);
-
-        link.click();
-
-        link.parentNode!.removeChild(link);
-      });
-  };*/
-
   const redirectCvOnline = () => {
     window.open('https://drive.google.com/file/d/1P5IUPQc4zhw3jlrgreDeL58QB8Iak77f/view', '_blank');
   };

@@ -4,6 +4,7 @@ import { ReactComponent as GithubSvg } from '../assets/images/svg/github.svg';
 import { ReactComponent as LinkedinSvg } from '../assets/images/svg/linkedin.svg';
 import { ReactComponent as TwitterSvg } from '../assets/images/svg/twitter.svg';
 import Navbar from './Navbar';
+import { COLORS } from '../common/constants/colors';
 export function SvgComponent() {
   return (
     <svg
@@ -12,13 +13,12 @@ export function SvgComponent() {
       id='svg'
       viewBox='0 0 1440 500'
       xmlns='http://www.w3.org/2000/svg'
-      className='transition duration-300 ease-in-out delay-150'
       preserveAspectRatio='none'
     >
       <defs>
         <linearGradient id='gradient-header' x1='50%' y1='0%' x2='50%' y2='100%'>
-          <stop offset='5%' stopColor='#e76f51'></stop>
-          <stop offset='95%' stopColor='#f4a261'></stop>
+          <stop offset='5%' stopColor={COLORS.primary}></stop>
+          <stop offset='95%' stopColor={COLORS.secondary}></stop>
         </linearGradient>
       </defs>
       <path
@@ -26,16 +26,12 @@ export function SvgComponent() {
         stroke='none'
         strokeWidth='0'
         fill='url(#gradient-header)'
-        className='transition-all duration-300 ease-in-out delay-150 path-0'
         transform='rotate(-180 720 250)'
       ></path>
     </svg>
   );
 }
 
-/*export default SvgComponent*/
-
-/*export default SvgComponent;*/
 interface HeaderProps {
   isOpenSidebar: boolean;
   handleIsOpenSidebar: () => void;

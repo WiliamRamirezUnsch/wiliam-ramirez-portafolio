@@ -11,6 +11,7 @@ import ImageRedux from '../assets/images/redux.png';
 import ImageMaterialUI from '../assets/images/material-ui-logo.png';
 import ImageVueJs from '../assets/images/vuejs.png';
 import ImageVuetify from '../assets/images/vuetify-logo.png';
+import { COLORS } from '../common/constants/colors';
 
 const SvgComponentPrimaryBottom = () => {
   return (
@@ -24,8 +25,8 @@ const SvgComponentPrimaryBottom = () => {
     >
       <defs>
         <linearGradient id='gradient-about-me-primary-bottom' x1='50%' y1='0%' x2='50%' y2='100%'>
-          <stop offset='15%' stopColor='#f4a261'></stop>
-          <stop offset='85%' stopColor='#e76f51'></stop>
+          <stop offset='15%' stopColor={COLORS.secondary}></stop>
+          <stop offset='85%' stopColor={COLORS.primary}></stop>
         </linearGradient>
       </defs>
       <path
@@ -47,13 +48,12 @@ const SvgComponentPrimaryTop = () => {
       id='svg'
       viewBox='0 0 1440 500'
       xmlns='http://www.w3.org/2000/svg'
-      className='transition duration-300 ease-in-out delay-150'
       preserveAspectRatio='none'
     >
       <defs>
         <linearGradient id='gradient-about-me-primary-top' x1='50%' y1='0%' x2='50%' y2='100%'>
-          <stop offset='15%' stopColor='#f4a261'></stop>
-          <stop offset='85%' stopColor='#e76f51'></stop>
+          <stop offset='15%' stopColor={COLORS.secondary}></stop>
+          <stop offset='85%' stopColor={COLORS.primary}></stop>
         </linearGradient>
       </defs>
       <path
@@ -61,7 +61,6 @@ const SvgComponentPrimaryTop = () => {
         stroke='none'
         strokeWidth='0'
         fill='url(#gradient-about-me-primary-top)'
-        className='transition-all duration-300 ease-in-out delay-150 path-0'
         transform='rotate(-180 720 250)'
       ></path>
     </svg>

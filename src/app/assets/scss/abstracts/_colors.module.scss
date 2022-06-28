@@ -1,0 +1,15 @@
+$color-primary: #e76f51;
+$color-secondary: #f4a261;
+$color-tertiary: #ddc3d0;
+$color-quaternary: #b7a196;
+$color-fifth: #857e61;
+
+$color-gray: #3f3f3f;
+
+$color-white: #fff;
+$color-black: #000;
+
+:export {
+  colorPrimary: $color-primary;
+  colorSecondary: $color-secondary;
+}
