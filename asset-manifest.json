@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wiliam-ramirez-portafolio/static/css/main.0c6c4963.css",
-    "main.js": "/wiliam-ramirez-portafolio/static/js/main.8b7cef69.js",
+    "main.js": "/wiliam-ramirez-portafolio/static/js/main.41f57ffc.js",
     "static/js/787.084ade21.chunk.js": "/wiliam-ramirez-portafolio/static/js/787.084ade21.chunk.js",
     "static/media/rimac-sos-dashboard.png": "/wiliam-ramirez-portafolio/static/media/rimac-sos-dashboard.dbb1e6eace44cb4bef63.png",
     "static/media/rimac-sos-login.png": "/wiliam-ramirez-portafolio/static/media/rimac-sos-login.a85374200bcc1d7531b4.png",
@@ -39,11 +39,11 @@
     "static/media/twitter.svg": "/wiliam-ramirez-portafolio/static/media/twitter.ca6dab938465408e461395a6db99ef70.svg",
     "static/media/linkedin.svg": "/wiliam-ramirez-portafolio/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "main.0c6c4963.css.map": "/wiliam-ramirez-portafolio/static/css/main.0c6c4963.css.map",
-    "main.8b7cef69.js.map": "/wiliam-ramirez-portafolio/static/js/main.8b7cef69.js.map",
+    "main.41f57ffc.js.map": "/wiliam-ramirez-portafolio/static/js/main.41f57ffc.js.map",
     "787.084ade21.chunk.js.map": "/wiliam-ramirez-portafolio/static/js/787.084ade21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c6c4963.css",
-    "static/js/main.8b7cef69.js"
+    "static/js/main.41f57ffc.js"
   ]
 }
