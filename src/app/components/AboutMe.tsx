@@ -60,7 +60,8 @@ const SvgComponentSecondaryTop = () => {
 
 const AboutMe = () => {
   const redirectCvOnline = () => {
-    window.open('https://drive.google.com/file/d/1P5IUPQc4zhw3jlrgreDeL58QB8Iak77f/view', '_blank');
+    //window.open('https://drive.google.com/file/d/1P5IUPQc4zhw3jlrgreDeL58QB8Iak77f/view', '_blank');
+    window.open('https://drive.google.com/file/d/1-CKmy90s3z0nlFkAUeG0vyoDitCsNLCU/view', '_blank');
   };
 
   return (
@@ -89,22 +90,24 @@ const AboutMe = () => {
               </div>
               <div className={'about-me__info'}>
                 <p>
-                  Hola, me llamo Wiliam, soy desarrollador Frontend Junior con más de un año
-                  experiencia en tecnologías Frontend (React y VueJs), En mi experiencia he
-                  implementado aplicaciones en el sector privado.
+                  Hola, me llamo Wiliam, soy desarrollador Frontend Junior con más de dos años experiencia
+                  en tecnologías Frontend (React y VueJs), En mi experiencia he implementado aplicaciones
+                  en el sector privado. Me considero una persona autodidacta y con ganas de afrontar nuevos
+                  retos, en cada oportunidad siempre tengo como prioridad la calidad del código fuente y las
+                  buenas prácticas que conllevan estas.
                 </p>
                 <p
                   style={{
                     padding: '2rem 0'
                   }}
                 >
-                  Me considero una persona autodidacta y con ganas de afrontar nuevos retos, en cada
-                  oportunidad siempre tengo como prioridad la calidad del código fuente y las buenas
-                  practicas que conllevan estas.
+                  Participe en la implementación de Firecity (Sistema contra incendios en tiempo real) y de
+                  la plataforma web RimacSOS (Monitoreo de ambulancias en tiempo real).
                 </p>
                 <p>
-                  Participe en la implementación de Firecity (Sistema contra incendios en tiempo
-                  real) y de la plataforma web RimacSOS (Monitoreo de ambulancias en tiempo real).
+                  Actualmente, tengo un nuevo reto en una de las principales aseguradoras peruanas,
+                  especializada en Rentas Vitalicias, Seguros de Vida y Bancaseguros, Interseguro, del grupo
+                  Intercorp, perteneciendo al equipo Vida Cash.
                 </p>
                 <div className={'about-me__buttons'}>
                   <a
