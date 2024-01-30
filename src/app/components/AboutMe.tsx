@@ -90,7 +90,7 @@ const AboutMe = () => {
               </div>
               <div className={'about-me__info'}>
                 <p>
-                  Hola, me llamo Wiliam, soy desarrollador Frontend Junior con más de dos años experiencia
+                  Hola, me llamo Wiliam, soy desarrollador Frontend con más de tres años experiencia
                   en tecnologías Frontend (React y VueJs), En mi experiencia he implementado aplicaciones
                   en el sector privado. Me considero una persona autodidacta y con ganas de afrontar nuevos
                   retos, en cada oportunidad siempre tengo como prioridad la calidad del código fuente y las
@@ -113,13 +113,13 @@ const AboutMe = () => {
                   <a
                     href='/CV-WILIAM-RAMIREZ.pdf'
                     download={true}
-                    className={'btn btn--disabled btn--radius btn--white u-margin-top-2'}
+                    className={'btn btn--radius btn--white u-margin-top-2'}
                   >
                     Descargar CV
                   </a>
                   <div
                     onClick={redirectCvOnline}
-                    className={'btn btn--radius btn--white u-margin-top-2'}
+                    className={'btn btn--disabled btn--radius btn--white u-margin-top-2'}
                   >
                     Ver CV en línea
                   </div>

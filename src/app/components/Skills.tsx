@@ -8,6 +8,10 @@ import ImageTypeScript from '../assets/images/typescript.png';
 import ImageNextJs from '../assets/images/nextjs.png';
 import ImageReactJs from '../assets/images/reactjs.png';
 import ImageRedux from '../assets/images/redux.png';
+import ImageNuxt from '../assets/images/nuxt.png';
+import ImageTailwind from '../assets/images/tailwind.png';
+import ImageVitest from '../assets/images/vitest.png';
+import ImageDocker from '../assets/images/docker.png';
 import ImageMaterialUI from '../assets/images/material-ui-logo.png';
 import ImageVueJs from '../assets/images/vuejs.png';
 import ImageVuetify from '../assets/images/vuetify-logo.png';
@@ -137,10 +141,28 @@ const Skills = () => {
               <div className={'skill__container-image tooltip'}>
                 <img className={'skill__image'} src={ImageVueJs} alt={'ImageAboutMe'} />
                 <span className={'tooltip-box'}>Vue.Js 2,3</span>
-              </div>{' '}
+              </div>
               <div className={'skill__container-image tooltip'}>
                 <img className={'skill__image'} src={ImageVuetify} alt={'ImageAboutMe'} />
                 <span className={'tooltip-box'}>Vuetify</span>
+              </div>
+
+
+              <div className={'skill__container-image tooltip'}>
+                <img className={'skill__image'} src={ImageNuxt} alt={'ImageAboutMe'} />
+                <span className={'tooltip-box'}>Nuxt</span>
+              </div>
+              <div className={'skill__container-image tooltip'}>
+                <span className={'tooltip-box'}>Tailwind CSS</span>
+                <img className={'skill__image'} src={ImageTailwind} alt={'ImageAboutMe'} />
+              </div>
+              <div className={'skill__container-image tooltip'}>
+                <span className={'tooltip-box'}>Vitest</span>
+                <img className={'skill__image'} src={ImageVitest} alt={'ImageAboutMe'} />
+              </div>
+              <div className={'skill__container-image tooltip'}>
+                <img className={'skill__image'} src={ImageDocker} alt={'ImageAboutMe'} />
+                <span className={'tooltip-box'}>Docker</span>
               </div>
             </div>
           </div>

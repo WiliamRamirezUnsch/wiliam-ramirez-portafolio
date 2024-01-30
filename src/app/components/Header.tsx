@@ -65,7 +65,7 @@ const Header = ({ isOpenSidebar, handleIsOpenSidebar }: HeaderProps) => {
 
             <div className={'header__grid__info'}>
               <h1 className={'header__grid__info__name'}>Wiliam Ramirez</h1>
-              <h4 className={'header__grid__info__position'}>Desarrollador Front-End Junior</h4>
+              <h4 className={'header__grid__info__position'}>Desarrollador Front-End</h4>
               <div className={'header__grid__info__icons u-margin-top-2'}>
                 <GithubSvg
                   onClick={() => handleRedirect('https://github.com/WiliamEduarRamirez')}
