@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wiliam-ramirez-portafolio/static/css/main.730be7f3.css",
-    "main.js": "/wiliam-ramirez-portafolio/static/js/main.cacf9516.js",
+    "main.js": "/wiliam-ramirez-portafolio/static/js/main.0bbedb47.js",
     "static/js/787.084ade21.chunk.js": "/wiliam-ramirez-portafolio/static/js/787.084ade21.chunk.js",
     "static/media/rimac-sos-dashboard.png": "/wiliam-ramirez-portafolio/static/media/rimac-sos-dashboard.dbb1e6eace44cb4bef63.png",
     "static/media/rimac-sos-login.png": "/wiliam-ramirez-portafolio/static/media/rimac-sos-login.a85374200bcc1d7531b4.png",
@@ -16,6 +16,7 @@
     "static/media/asbanc-login.png": "/wiliam-ramirez-portafolio/static/media/asbanc-login.b51d5f12d2ec2f56ba27.png",
     "static/media/asbanc-resources.png": "/wiliam-ramirez-portafolio/static/media/asbanc-resources.b1427eb9d8656436c878.png",
     "static/media/rimac-sos-dashboard-cases.png": "/wiliam-ramirez-portafolio/static/media/rimac-sos-dashboard-cases.6e13e5461a99919ee7f9.png",
+    "static/media/CV-WILIAM-RAMIREZ.pdf": "/wiliam-ramirez-portafolio/static/media/CV-WILIAM-RAMIREZ.f8290035c94caf56af90.pdf",
     "static/media/asbanc-profile.png": "/wiliam-ramirez-portafolio/static/media/asbanc-profile.18856da503a076b7ab52.png",
     "static/media/nuxt.png": "/wiliam-ramirez-portafolio/static/media/nuxt.66c280597e2f01ec083d.png",
     "static/media/programador.jpg": "/wiliam-ramirez-portafolio/static/media/programador.17b30ca71f791dd9eebd.jpg",
@@ -42,11 +43,11 @@
     "static/media/twitter.svg": "/wiliam-ramirez-portafolio/static/media/twitter.ca6dab938465408e461395a6db99ef70.svg",
     "static/media/linkedin.svg": "/wiliam-ramirez-portafolio/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "main.730be7f3.css.map": "/wiliam-ramirez-portafolio/static/css/main.730be7f3.css.map",
-    "main.cacf9516.js.map": "/wiliam-ramirez-portafolio/static/js/main.cacf9516.js.map",
+    "main.0bbedb47.js.map": "/wiliam-ramirez-portafolio/static/js/main.0bbedb47.js.map",
     "787.084ade21.chunk.js.map": "/wiliam-ramirez-portafolio/static/js/787.084ade21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.730be7f3.css",
-    "static/js/main.cacf9516.js"
+    "static/js/main.0bbedb47.js"
   ]
 }
