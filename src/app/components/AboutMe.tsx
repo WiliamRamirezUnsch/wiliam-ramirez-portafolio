@@ -1,6 +1,11 @@
 import React from 'react';
 import ImageAboutMe from '../assets/images/about-me.png';
 import { COLORS } from '../common/constants/colors';
+// @ts-ignore
+import { saveAs } from 'file-saver';
+
+// @ts-ignore
+import pdfFile from '../assets/files/CV-WILIAM-RAMIREZ.pdf';
 
 const SvgComponentSecondaryBottom = () => {
   return (
@@ -64,6 +69,13 @@ const AboutMe = () => {
     window.open('https://drive.google.com/file/d/1-CKmy90s3z0nlFkAUeG0vyoDitCsNLCU/view', '_blank');
   };
 
+  const handleDownload = () => {
+    //obten el ano actual
+    const date = new Date();
+    const year = date.getFullYear();
+    saveAs(pdfFile, 'CV-WILIAM-RAMIREZ-' + year + '.pdf');
+  };
+
   return (
     <>
       <section id='about-me'>
@@ -91,32 +103,39 @@ const AboutMe = () => {
               <div className={'about-me__info'}>
                 <p>
                   Hola, me llamo Wiliam, soy desarrollador Frontend con más de tres años experiencia
-                  en tecnologías Frontend (React y VueJs), En mi experiencia he implementado aplicaciones
-                  en el sector privado. Me considero una persona autodidacta y con ganas de afrontar nuevos
-                  retos, en cada oportunidad siempre tengo como prioridad la calidad del código fuente y las
-                  buenas prácticas que conllevan estas.
+                  en tecnologías Frontend (React y VueJs), En mi experiencia he implementado
+                  aplicaciones en el sector privado. Me considero una persona autodidacta y con
+                  ganas de afrontar nuevos retos, en cada oportunidad siempre tengo como prioridad
+                  la calidad del código fuente y las buenas prácticas que conllevan estas.
                 </p>
                 <p
                   style={{
                     padding: '2rem 0'
                   }}
                 >
-                  Participe en la implementación de Firecity (Sistema contra incendios en tiempo real) y de
-                  la plataforma web RimacSOS (Monitoreo de ambulancias en tiempo real).
+                  Participe en la implementación de Firecity (Sistema contra incendios en tiempo
+                  real) y de la plataforma web RimacSOS (Monitoreo de ambulancias en tiempo real).
                 </p>
                 <p>
                   Actualmente, tengo un nuevo reto en una de las principales aseguradoras peruanas,
-                  especializada en Rentas Vitalicias, Seguros de Vida y Bancaseguros, Interseguro, del grupo
-                  Intercorp, perteneciendo al equipo Vida Cash.
+                  especializada en Rentas Vitalicias, Seguros de Vida y Bancaseguros, Interseguro,
+                  del grupo Intercorp, perteneciendo al equipo Vida Cash.
                 </p>
                 <div className={'about-me__buttons'}>
-                  <a
+                  {/*  <a
                     href='/CV-WILIAM-RAMIREZ.pdf'
                     download={true}
                     className={'btn btn--radius btn--white u-margin-top-2'}
                   >
                     Descargar CV
-                  </a>
+                  </a>*/}
+
+                  <div
+                    onClick={handleDownload}
+                    className={'btn btn--radius btn--white u-margin-top-2'}
+                  >
+                    Descargar CV
+                  </div>
                   <div
                     onClick={redirectCvOnline}
                     className={'btn btn--disabled btn--radius btn--white u-margin-top-2'}
